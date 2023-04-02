@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+
+
+}
+a:hover{
+    color: red;
+    
+}
+
+header{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    display: block;
+    transition: 0.2s;
+    z-index: 100000;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoname{
+    text-align: center;
+    position: static;
+    overflow: hidden;
+    color: rgb(81, 81, 81);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+
+}
+.navbar{
+    display:inline;
+    position: static;
+    overflow: hidden;
+    margin-top: 40px;
+    color: black;
+    font-size: medium;
+    text-align: center;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;    
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 5px;
+   
+}
+
+
+/*MAIN*/
+/*SLIKA I TEKST 1*/
+.box{
+    display: flex;
+    clear: both;
+    content:"";
+
+}
+.color{
+    background-color: rgba(255, 0, 0, 0.47);
+    width: 360px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+.left-colum{
+    float: left;
+    margin-top: 120px;
+    margin-left: 60px;
+
+}
+.right-colum{
+    float: right;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 30px;
+    color: black;
+    margin-left: 100px;
+    margin-top: 350px;
+    margin-right: 100px;
+    line-height: 50px;
+}
+
+/*SLIKA I TEKST 2*/
+.box1{
+    display: flex;
+    content:"";
+
+}
+.left-colum1{
+    float: left;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 30px;
+    color: black;
+    margin-left: 100px;
+    margin-top: 350px;
+    margin-right: 100px;
+    line-height: 50px;
+
+}
+.right-colum1{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.color1{
+    background-color: rgba(10, 236, 10, 0.571);
+    width: 350px;
+    height: 600px;
+  
+
+    margin-right: 200px;
+    padding-right: 20px;
+    margin-top: 200px;
+    padding-left: 50px;
+
+}
+/* 
+//  ZA SENKU IZA SLIKE ILI MOZE S KORISTITI I ZA TEXT
+
+
+ box-shadow: 30px 30px  rgba(27, 228, 27, 0.553);
+*/
+
+
+/*SLIKA I TEKST 3*/
+.box2{
+    display: flex;
+    content:"";
+
+}
+.left-colum2{
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.color2{
+    background-color: rgba(255, 70, 3, 0.511);
+    width: 350px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+.right-colum2{
+
+    float: right;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 30px;
+    color: black;
+    margin-left: 100px;
+    margin-top: 350px;
+    margin-right: 150px;
+    line-height: 50px;
+}
+
+/*TESKT I SLIKA 4*/
+.box3{
+    display: flex;
+    content:"";
+
+}
+.left-colum3{
+
+    float: left;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 30px;
+    color: black;
+    margin-left: 100px;
+    margin-top: 350px;
+    margin-right: 80px;
+    line-height: 50px;
+}
+.right-colum3{
+
+    float: right;
+    margin-top: 200px;
+    margin-right: 150px;
+
+}
+.color3{
+
+    background-color:rgba(107, 255, 206, 0.574);
+    margin-right: 100px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 600px;
+    width: 350px;
+    
+
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: medium;
+    background-color: #fff;
+    padding-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+
+}

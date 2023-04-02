@@ -1,0 +1,123 @@
+=======================================
+---------PERSONAL WEBSITE--------------
+=======================================
+
+
+
+u contact dodaj drstvene mreze i broj telefona i e mail mozda mapa gde se nalazis
+
+
+
+u info dodaj nesto o web sajtu ko je pravio i mozda jos neke informacije o sajtu ili o podacima o tebi 
+
+
+
+
+
+----NAPRAVITI SAJT ZA KONTAKTE I INFO
+
+
+--- DODATI U HOME ODELJKU KAO DEO GDE MOGU DA MI POSALJU PORUKU PREKO MEJLA
+
+
+--- DODATI DARK MODE
+
+
+--- DODATI U CONTACTE ZA DRUSTVENE MREZE ZANIMLJIVE LOPTICE ILI NESTO SLICNO
+
+
+---  
+
+
+
+
+
+
+
+
+
+
+
+------------------html
+
+ <div class="dark-mode">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <div class="ball"></div>
+            </label>
+        </div>
+
+
+
+
+-----------------csss
+/*DARK MODE LOPTICA */
+:root{
+    --background: #ffffff;
+    --check: #000;
+    --ball: #f2eee3;
+}
+
+.dark{
+    --background: #000;
+    --check: #f2eee3;
+    --ball: #000;
+}
+.dark-mode{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: var(--background);
+    transform: .5s;
+}
+
+.checkbox:checked+ .label .ball{
+    transform: translateX(24px);
+}
+.checkbox{
+    opacity: 0;
+    position: absolute;
+
+}
+.label{
+    width: 50px;
+    height: 26px;
+    background: var(--check);
+    border-radius: 50px;
+    padding: 5px;
+    position: relative;
+}
+
+.ball{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    background: var(--ball);
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+
+}
+
+
+
+
+
+
+-----------------js
+
+
+
+/*DARK MODE*/ 
+const body = document.body
+const check = document.querySelector('#checkbox')
+
+check.addEventListener('change', function(){
+  documen.body.classList.toggle('dark')
+
+
+
+})
